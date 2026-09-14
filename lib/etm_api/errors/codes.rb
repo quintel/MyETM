@@ -1,9 +1,9 @@
 # frozen_string_literal: true
 
-module Api
-  module V2
+module EtmApi
+  module Errors
     # A stable documented enum of machine-readable error code values that is an error contract.
-    module ErrorCodes
+    module Codes
       UNAUTHENTICATED    = "unauthenticated"     # no usable credential was presented (401)
       PARAM_MISSING      = "param_missing"       # a required parameter was absent (400)
       PARAM_INVALID      = "param_invalid"       # a parameter was present but the wrong shape (400)
